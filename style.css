@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,
+html {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: "Jersey 10", sans-serif;
+}
+.webgl {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+nav {
+    color: rgb(55, 59, 91);
+    z-index: 2;
+    position: relative;
+    padding: 2rem 8rem;
+    display: flex;
+    align-items: center;
+    max-width: 1440px;
+    margin: auto;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(55, 59, 91);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+    font-size: 2rem;
+}
+
+.title {
+    position: absolute;
+    color: rgb(55, 59, 91);
+    z-index: 2;
+    font-size: 4rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
